@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: right;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #C2C7F1;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    height: 260px;  
+    margin-bottom: -160px; 
+}
+
+.Logo{
+    
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.Bem-vindo{
+    margin-top: -100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Login{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Carrinho{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -45px;
+}
+
+.Banner{
+    top: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #c2c7f1;
+}
+
+.Destaque{
+    top: -450px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+section{
+    background-color: #C2C7F1;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -450px;
+}
+
+footer{
+    background-color: #C2C7F1;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    height: 540px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+
