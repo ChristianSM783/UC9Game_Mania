@@ -81,5 +81,9 @@ footer{
     padding-top: 30px;
     width: 100%;
 }
-
-
+/* Responsividade */
+@media only screen and (max-device-width: 1920px) {
+    body {
+        background-color: #C2C7F1;
+    }
+}
