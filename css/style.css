@@ -8,7 +8,7 @@
 /* Menu */
 nav{
     text-align: right;
-    margin-right: 10px;
+    margin-right: 70px;
     font-family: 'Roboto', sans-serif;
 }
 /* Header */
@@ -22,9 +22,8 @@ header{
 }
 /* Logo */
 .Logo{
-    
     text-align: left;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: -20px;
 }
 /* Menu */
@@ -35,14 +34,14 @@ header{
 /* Menu */
 .Login{
     text-align: right;
-    margin-right: 100px;
+    margin-right: 140px;
     margin-top: -30px;
     font-family: 'Roboto', sans-serif;
 }
 /* Menu */
 .Carrinho{
     text-align: right;
-    margin-right: 20px;
+    margin-right: 70px;
     margin-top: -45px;
 }
 /* Banner */
@@ -72,6 +71,14 @@ section{
     padding-top: 20px;
     margin-top: -450px;
 }
+/* Novidades */
+.novidades{
+    background-position: center;
+    text-align: center;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* Rodapé */
 footer{
     background-color: #C2C7F1;
@@ -80,6 +87,8 @@ footer{
     height: 540px;
     padding-top: 30px;
     width: 100%;
+    margin-left: 70px;
+    margin: 0px;
 }
 /* Responsividade */
 @media only screen and (max-device-width: 1920px) {
