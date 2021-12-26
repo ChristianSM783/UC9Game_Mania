@@ -10,31 +10,30 @@
     <!-- Conexão com o css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="mostrarPopup()">
     <header>
         <!-- Menu -->
         <nav id="menu">
-            <a href="file:///F:/Paginas%20adicionais/Pagina1/Pagina1.html">Pág01</a>
-            <a href="file:///F:/Paginas%20adicionais/Pagina2/Pagina2.html">Pág02</a>
-            <a href="file:///F:/Paginas%20adicionais/Pagina3/Pagina3.html">Pág03</a>
-            <a href="file:///F:/Paginas%20adicionais/Pagina4/Pagina4.html">Pág04</a>
+            <a href="file:///F:/Temp/Pagina1.html">Pág01</a>
+            <a href="file:///F:/Temp/Pagina2.html">Pág02</a>
+            <a href="file:///F:/Temp/Pagina3.html">Pág03</a>
+            <a href="file:///F:/Temp/Pagina4.html">Pág04</a>
         </nav>
        
         <div class="Logo"><img src="img/LOGO.png" alt="Logo Game Mania"></div>
         
         <div class="Bem-vindo"><h3>Bem-vindo</h3></div>
-
-        <div class="Lupa"><img src="img/lupa.png" alt="Logo Lupa">
-        <!-- Pesquisa   -->
-            <input type="text" name="Pesquisa">
         
-        </div>
+        <!-- Campo de pesquisa -->
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <img src="img/lupa.png" id="btnBusca" alt="Buscar"/>
+          </div>
 
         <div class="Login"><h5>Login</h5></div>
 
         <div class="Carrinho"><img src="img/CARRINHO.png" alt="Logo Carrinho"></div>
         
-
     </header> 
 <!-- Banner -->
     <div class="Banner"><img src="img/Banner.png" alt="Logo Banner"></div>
@@ -46,17 +45,14 @@
         <a href="#"><img src="img/virtual.png" alt="Logo Óculos Virtual"></a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <a href="#"><img src="img/video_game.png" alt="Logo Virtual"></a>
-        <br><br><br>
-        <!-- Cadastro de e-mail -->
+<!-- Cadastro de e-mail -->
         <h3><b>Cadastrar e-mail para receber promoções</b></h3>
-        <a href="#"><img src="img/e-mail.png" alt="Logo E-mail"></a>
-        <input type="text" name="E-mail">
+        
+    <form action="">
+        <input id="campo-email" type="e-mail" placeholder="E-mail" required>
+        <button onclick="enviarEmail()"><B>Cadastrar</B></button>
+    </form>
 
-        <style>
-            input[type=text]{
-                width: 450px;
-            }
-        </style>
 <!-- Novidades -->
         <div class="novidades">
         <br>
@@ -114,6 +110,8 @@
         
     </footer>
     <!-- Conexão com o javascript -->
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>

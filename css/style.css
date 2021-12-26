@@ -44,6 +44,23 @@ header{
     margin-right: 70px;
     margin-top: -45px;
 }
+/* Campo de pesquisa */
+.divBusca{
+    background-color:#f8fafa;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px; 
+  }
+/* Texto campo de pesquisa */
+  .txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+  }
 /* Banner */
 .Banner{
     top: 0px;
